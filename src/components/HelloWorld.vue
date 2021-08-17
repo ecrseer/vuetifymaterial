@@ -6,9 +6,7 @@
 
         </FilmeFormulario>
 
-        <router-view>
-
-        </router-view>
+        <router-view></router-view>
 
 
     </v-row>

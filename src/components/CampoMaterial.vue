@@ -6,7 +6,7 @@
         label="camponome"
         required
 
-        @input="$emit('update:modelValue',$v.target.touch() f)"
+        @input="$emit('input',$event.target.value )"
 
     ></v-text-field>
   </v-input>

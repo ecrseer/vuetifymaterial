@@ -6,10 +6,9 @@
 
         </FilmeFormulario>
 
-        <FilmeLista titulo="Filmes em destaque">
-          <FilmeItem v-for="ff in filmes" :filme="ff" @editar="edicao">
-          </FilmeItem>
-        </FilmeLista>
+        <router-view>
+
+        </router-view>
 
 
     </v-row>
